@@ -12,8 +12,8 @@ Original file is located at
 import cohere
 from google import generativeai as genai
 
-ckey = "rqAyGjCeRT6x8v9lg0LxXlKLmkORl2VRvvMKzvXg"
-gkey = "AIzaSyDEFms5dr_6is_4AMTLWkIAXaEI6PB7H34"
+ckey = ""
+gkey = ""
 
 co = cohere.Client(ckey)
 genai.configure(api_key=gkey)
